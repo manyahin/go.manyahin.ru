@@ -3,6 +3,7 @@
   "version": "2.0.1",
   "description": "Motivation page for go.manyahin.ru domain",
   "author": "Ilya Manyahin <i.manyahin@gmail.com>",
+  "license": "ISC",
   "scripts": {
     "dev": "concurrently --kill-others \"npm run watch\" \"npm run live\"",
     "watch": "gulp watch",
