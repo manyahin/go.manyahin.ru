@@ -1,0 +1,124 @@
+html {
+  margin: 0;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #111;
+  color: #EEE;
+}
+
+section.first {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+
+  .intro {
+    margin-top: -4vh;
+  }
+  
+  .intro h1 {
+    font-size: 7.5vw;
+    text-align: center;
+  }
+
+  .intro h1 u {
+    text-decoration: none;
+    border-bottom: 1px solid #DDD;
+  }
+
+  #counter {
+    font-size: 10vw;
+  }
+
+  .countdown-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .countdown-section {
+    display: flex;
+    flex-direction: column;
+    margin: 0 6vw;
+    font-family: sans-serif;
+    font-weight: 100;
+    text-align: center;
+  }
+
+  .countdown-amount {
+    display: block;
+    font-size: 24vh;
+  }
+
+  .countdown-period {
+    align-self: center;
+    font-size: 2.8vh;
+    letter-spacing: 0.7vw;
+    color: #DDD;
+    font-family: serif;
+    font-weight: 100;
+    margin-top: -2.1vh;
+  }
+
+  .addthis_toolbox {
+    display: inline-block;
+  }
+
+section.second {
+ min-height: 200px;
+ margin: 4vh auto;
+ max-width: 800px;
+}
+
+  #comments {
+    height: 500px;
+    width: 100%;
+    background-color: pink;
+  }
+
+section.footer {
+  color: #EEE;
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+/* AdThis customization */
+
+#at4-scc {
+  display: block!important;
+  opacity: 1!important;
+  padding-top: 7px;
+}
+
+.at4-hide-content {
+  visibility: visible !important;
+}
+
+.at-icon-wrapper {
+  background-color: #111 !important;
+}
+
+div.at4-arrow.at-right {
+  background-position: -20px -20px !important;
+}
+
+div.at4-arrow.at-left {
+  background-position: 0 -20px !important;
+}
+
+.at-custom-sidebar-text {
+  font-size: 7px !important;
+  color: #EEE !important;
+}
+
+.at-custom-sidebar-count {
+  font-size: 14px !important;
+  color: #EEE !important;
+}

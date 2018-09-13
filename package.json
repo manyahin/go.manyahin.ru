@@ -1,0 +1,33 @@
+{
+  "name": "go.manyahin.ru",
+  "version": "2.0.1",
+  "description": "Motivation page for go.manyahin.ru domain",
+  "author": "Ilya Manyahin <i.manyahin@gmail.com>",
+  "scripts": {
+    "dev": "concurrently --kill-others \"npm run watch\" \"npm run live\"",
+    "watch": "gulp watch",
+    "live": "gulp browser-sync",
+    "build": "gulp build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:manyahin/go.manyahin.ru.git"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "browser-sync": "^2.18.13",
+    "concurrently": "^3.5.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-clean-css": "^3.9.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-uglify": "^3.0.0",
+    "jquery": "^3.2.1",
+    "kbw-countdown": "^2.1.1",
+    "normalize.css": "^7.0.0",
+    "pump": "^1.0.2",
+    "babel-preset-env": "^1.6.1",
+    "gulp-babel": "^7.0.0"
+  }
+}
