@@ -29,10 +29,6 @@
 
 $(function() {
 
-  // $(".message").fitText();
-
-  var date = new Date()
-
   window.countdown = $('#counter').countdown({
     since: new Date(), 
     format: 'Shmd'

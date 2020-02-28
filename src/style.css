@@ -57,13 +57,14 @@ section.first {
   }
 
   .countdown-period {
-    align-self: center;
-    font-size: 2.8vh;
-    letter-spacing: 0.7vw;
-    color: #DDD;
-    font-family: serif;
+    text-align: left;
+    font-size: 2.4vh;
+    letter-spacing: .4vw;
+    color: #ddd;
+    font-family: sans-serif;
     font-weight: 100;
     margin-top: -2.1vh;
+    margin-left: 0.8vh;
   }
 
   .addthis_toolbox {
