@@ -4,6 +4,8 @@
 
 # Dev
 
+Required node v8 to run, failed in v10 and v12
+
     # yarn dev
 
 # Build
