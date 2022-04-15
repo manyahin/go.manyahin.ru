@@ -30,7 +30,7 @@
 $(function() {
 
   window.countdown = $('#counter').countdown({
-    since: new Date(), 
+    since: -1, 
     format: 'Shmd'
   });
 
