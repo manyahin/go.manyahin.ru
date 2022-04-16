@@ -7,6 +7,7 @@ body {
   height: 100%;
   background-color: #111;
   color: #EEE;
+  font-family: serif;
 }
 
 section.first {
@@ -27,11 +28,6 @@ section.first {
     text-align: center;
   }
 
-  .intro h1 u {
-    text-decoration: none;
-    border-bottom: 1px solid #DDD;
-  }
-
   #counter {
     font-size: 10vw;
   }
@@ -46,7 +42,6 @@ section.first {
     display: flex;
     flex-direction: column;
     margin: 0 6vw;
-    font-family: sans-serif;
     font-weight: 100;
     text-align: center;
   }
@@ -54,14 +49,14 @@ section.first {
   .countdown-amount {
     display: block;
     font-size: 24vh;
+    font-family: sans-serif;
   }
 
   .countdown-period {
     text-align: left;
     font-size: 2.4vh;
-    letter-spacing: .4vw;
+    letter-spacing: .2vw;
     color: #ddd;
-    font-family: sans-serif;
     font-weight: 100;
     margin-top: -2.1vh;
     margin-left: 0.8vh;
